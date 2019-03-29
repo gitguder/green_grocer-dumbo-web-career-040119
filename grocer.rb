@@ -30,6 +30,7 @@ end
 def apply_clearance(cart)
   cart.each do |name, property|
     if property[:clearance]
+      
     end
 end
 
