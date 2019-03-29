@@ -34,6 +34,7 @@ def apply_clearance(cart)
       properties[:price] = new_price.round(2)
     end
   end
+  cart
 end
 
 def checkout(cart, coupons)
