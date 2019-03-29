@@ -30,7 +30,7 @@ end
 def apply_clearance(cart)
   cart.each do |name, property|
     if property[:clearance]
-      
+      new_price = properties[:price] * 0.80
     end
 end
 
